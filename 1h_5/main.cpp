@@ -14,11 +14,6 @@ int main() {
         throw runtime_error("Piti antaa positiivinen luku");
     }
 
-
-
-=======
-    
->>>>>>> d4a2343be13aeba4371f9034d60254187ddcc146
     system("pause");
     return 0;
 }
