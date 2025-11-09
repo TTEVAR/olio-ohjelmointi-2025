@@ -4,6 +4,10 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    string etunim;
+    cout << "Anna etunimesi:" << endl;
+    cin >> etunim;
+    cout<<"Tervetuloa "<<etunim <<endl;
+    system("pause");
     return 0;
 }
