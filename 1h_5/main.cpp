@@ -1,8 +1,5 @@
 #include <iostream>
-/*
- * Esimerkkiin lisättiin try catch -rakenne vaikkei
- * sitä ollut tehtävässä pyydetty
- */
+
 using namespace std;
 
 int tuplaa(int);
@@ -16,13 +13,7 @@ int main() {
     if(luku<0){
         throw runtime_error("Piti antaa positiivinen luku");
     }
-    try {
-        tulos=tuplaa(luku);
-        luvunTulostus(tulos);
-    } catch (runtime_error& e) {
-        cout<<e.what()<<endl;
-    }
-
+    
     system("pause");
     return 0;
 }
