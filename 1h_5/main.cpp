@@ -1,8 +1,5 @@
 #include <iostream>
-/*
- * Esimerkkiin lisättiin try catch -rakenne vaikkei
- * sitä ollut tehtävässä pyydetty
- */
+
 using namespace std;
 
 int tuplaa(int);
@@ -18,6 +15,10 @@ int main() {
     }
 
 
+
+=======
+    
+>>>>>>> d4a2343be13aeba4371f9034d60254187ddcc146
     system("pause");
     return 0;
 }
